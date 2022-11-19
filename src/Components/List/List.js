@@ -5,12 +5,12 @@ import Card from '../Card/Card';
 
 const List = () => {
 
-  const { books , currentPage, setCurrentPage, BooksPerPage, setBooksPerPage  } = useContext(ApiContext);
+  const { books ,filteredBooks , currentPage, setCurrentPage, BooksPerPage, setBooksPerPage  } = useContext(ApiContext);
   
   // Get current post
   const indexOfLastBooks = currentPage * BooksPerPage;
   const indexOfFirstBooks = indexOfLastBooks - BooksPerPage;
-  const currentBooks = books.slice(indexOfFirstBooks,indexOfLastBooks);
+  const currentBooks = filteredBooks.slice(indexOfFirstBooks,indexOfLastBooks);
 
   return (
     <div>

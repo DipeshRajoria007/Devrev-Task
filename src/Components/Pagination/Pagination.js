@@ -1,9 +1,9 @@
 import React , {useContext} from 'react'
 import ApiContext from '../../Context/ContextApi'
 const Pagination = () => {
-    const {books , BooksPerPage , paginate}= useContext(ApiContext);
+    const {books, filteredBooks , BooksPerPage , paginate}= useContext(ApiContext);
     const pageNumbers =[];
-    for(let i = 1 ; i <= Math.ceil(books.length /BooksPerPage) ; i++)
+    for(let i = 1 ; i <= Math.ceil(filteredBooks.length /BooksPerPage) ; i++)
         pageNumbers.push(i);
   return (
     <nav className='page navigation'>
