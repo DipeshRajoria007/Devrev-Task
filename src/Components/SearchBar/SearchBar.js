@@ -20,13 +20,13 @@ const SearchBar = () => {
         </Dropdown.Toggle>
 
         <Dropdown.Menu onClick={(e)=> { setFilter(e.target.innerHTML) }} >
-            <Dropdown.Item href="!#">All genre</Dropdown.Item>
-            <Dropdown.Item href="!#">Comedy</Dropdown.Item>
-            <Dropdown.Item href="!#">Documentary</Dropdown.Item>
-            <Dropdown.Item href="!#">Drama</Dropdown.Item>
-            <Dropdown.Item href="!#">Thriller</Dropdown.Item>
-            <Dropdown.Item href="!#">Adventure</Dropdown.Item>
-            <Dropdown.Item href="!#">Fantasy</Dropdown.Item>
+            <Dropdown.Item >All genre</Dropdown.Item>
+            <Dropdown.Item >Comedy</Dropdown.Item>
+            <Dropdown.Item >Documentary</Dropdown.Item>
+            <Dropdown.Item >Drama</Dropdown.Item>
+            <Dropdown.Item >Thriller</Dropdown.Item>
+            <Dropdown.Item >Adventure</Dropdown.Item>
+            <Dropdown.Item >Fantasy</Dropdown.Item>
         </Dropdown.Menu>
         </Dropdown>
     </div>
