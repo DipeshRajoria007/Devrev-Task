@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Devrev-Task/static/css/main.44eeaea0.css",
+    "main.js": "/Devrev-Task/static/js/main.ffcc3cbe.js",
+    "index.html": "/Devrev-Task/index.html",
+    "main.44eeaea0.css.map": "/Devrev-Task/static/css/main.44eeaea0.css.map",
+    "main.ffcc3cbe.js.map": "/Devrev-Task/static/js/main.ffcc3cbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44eeaea0.css",
+    "static/js/main.ffcc3cbe.js"
+  ]
+}
